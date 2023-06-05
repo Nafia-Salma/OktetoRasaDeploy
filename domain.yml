@@ -95,8 +95,6 @@ actions:
 
 forms:
   contact_us_form:
-    forms:
-  contact_us_form:
     required_slots:
       - name
       - email
