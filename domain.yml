@@ -95,24 +95,15 @@ actions:
 
 forms:
   contact_us_form:
+    forms:
+  contact_us_form:
     required_slots:
-      name:
-      - type: from_text
-      email:
-      - type: from_entity
-        entity: email
-      phone_number:
-      - type: from_entity
-        entity: number
-      message:
-      - type: from_text
-      confirm_details:
-      - intent: affirm
-        value: yes
-        type: from_intent
-      - intent: deny
-        value: no
-        type: from_intent
+      - name
+      - email
+      - phone_number
+      - message
+      - confirm_details
+
 
 session_config:
   session_expiration_time: 60
